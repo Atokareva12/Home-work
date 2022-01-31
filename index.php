@@ -272,8 +272,21 @@ echo $season;
 
       <dif class="Zadanie">
           <h2>Задание 15</h2>
+С помощью цикла найдите сумму чисел от 1 до 100.
+</div>
+     <div class="Otvet"> 
+     <?php
+   let result = 0;
 
-
+   for (let i = 1; i <= 100; i++) {
+        result = result + i;
+   }
+   
+   console.log(result); // искомая сумма
+   ?>
+     Ответ:<?=$result ?>  
+ </div>  
+ 
 
 
 
