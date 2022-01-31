@@ -91,7 +91,6 @@
 </div>
     <div class="Otvet"> 
     <?php
-     <?php
 	$a = 10;
 	if ($a == 10) {
 		echo 'Верно';
