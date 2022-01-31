@@ -91,12 +91,13 @@
 </div>
     <div class="Otvet"> 
     <?php
-     var num = 10;
-     if (num == 10) {
-	alert('Верно');
-} else {
-	alert('Неверно');
-}
+     <?php
+	$a = 10;
+	if ($a == 10) {
+		echo 'Верно';
+	} else {
+		echo 'Неверно';
+	}
 ?>
      Ответ:<?=$result ?>  
  </div>
