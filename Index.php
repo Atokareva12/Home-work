@@ -26,6 +26,8 @@
          Ответ: <?=$result ?>   
     </dif>
 
+    <dif class="Zadanie">
+          <h2>Задание 2</h2>
 
 
 
