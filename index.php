@@ -202,5 +202,36 @@ echo $res;
       Ответ:<?=$result ?>  
   </div>
 
+
+        <dif class="Zadanie">
+          <h2>Задание 11</h2>
+ В переменной $month лежит какое-то число из интервала от 1 до 12.
+Определите в какую пору года попадает этот месяц (зима, лето, весна, осень). 
+</div>
+     <div class="Otvet"> 
+     <?php
+   $month = (rand(1, 12)) % 12;
+$season = null;
+
+    if ($month >= 0 && $month <= 2) {
+    $season = 'Зима';
+} elseif ($month >= 3 && $month <= 5) {
+    $season = 'Весна';
+} elseif ($month >= 6 && $month <= 8) {
+    $season = 'Лето';
+} else {
+    $season = 'Осень';
+}
+
+echo $season;
+?>
+      Ответ:<?=$result ?>  
+  </div>
+
+
   
+
+
+
+
 
