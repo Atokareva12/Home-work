@@ -228,10 +228,20 @@ echo $season;
       Ответ:<?=$result ?>  
   </div>
 
+         <dif class="Zadanie">
+          <h2>Задание 12</h2>
+Выведите столбец чисел от 1 до 100.
+</div>
+     <div class="Otvet"> 
+     <?php
+   для ($i = 1; $i <= 100; $i++) {
+		echo $i . "<br>";
+	}
+     ?>
+     Ответ:<?=$result ?>  
+ </div>
 
-  
-
-
+ 
 
 
 
