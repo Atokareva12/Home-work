@@ -109,9 +109,9 @@
 </div>
     <div class="Otvet"> 
     <?php
-    
-    g=int(input())
 
+    g=int(input())
+    
     if g>=45: print("Число входит в 4 четверть часа")
     
     elif g>=30: print("Число входит в 3 четверть часа")
