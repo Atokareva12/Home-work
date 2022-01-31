@@ -237,11 +237,26 @@ echo $season;
    для ($i = 1; $i <= 100; $i++) {
 		echo $i . "<br>";
 	}
-     ?>
+?>
      Ответ:<?=$result ?>  
  </div>
 
+          <dif class="Zadanie">
+          <h2>Задание 13</h2>
+ Выведите столбец чисел от 11 до 33. 
+ </div>
+     <div class="Otvet"> 
+     <?php
+     для ($i = 11; $i <= 33; $i++) {
+     echo $i . "<br>";
+}
+?>
+     Ответ:<?=$result ?>  
+ </div>
+
+
  
+
 
 
 
