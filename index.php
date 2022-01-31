@@ -109,20 +109,20 @@
 </div>
     <div class="Otvet"> 
     <?php
-    let min=+prompt("Введите число от 0 до 59");
-      if (min >= 0 && min <= 14) {
-        console.log ("Первая");
-     }
-      if (min >= 15 && min <= 30) {
-        console.log ("Вторая");
-     }
-     if (min >= 31 && min <= 45) {
-        console.log ("Третья");
-     }
-     if (min >= 46 && min <= 59) {
-        console.log ("Четвертая");
-     }
-        </script>
+    let min​=+​prompt​(​"Введите число от 0 до 59");
+    if (min >= 0 && min <= 14) {
+      console.log ("Первая");
+   }
+    if (min >= 15 && min <= 30) {
+      console.log ("Вторая");
+   }
+   if (min >= 31 && min <= 45) {
+      console.log ("Третья");
+   }
+   if (min >= 46 && min <= 59) {
+      console.log ("Четвертая");
+   }
+      </script>
   ?>
         Ответ:<?=$result ?>  
   </div>
