@@ -288,19 +288,14 @@ i = i + 1; /* Прибавляем к значению счётчика един
      <div class="Otvet"> 
      <?php
 
-   var i = 1;
-var b = 0;
-while(i <= 100) {
-b = b + i;
-i++;
+let result = 0;
+
+for (let i = 1; i <= 100; i++) {
+     result = result + i;
 }
-alert(b);
-//
-var b = 0;
-for(var i = 1; i <= 100; i++) {
-b = b + i;
-}
-alert(b);
+
+console.log(result); // искомая сумма
+
    ?>
      Ответ:<?=$result ?>  
  </div>  
