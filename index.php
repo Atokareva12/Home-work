@@ -258,8 +258,13 @@ i = i + 1; /* Прибавляем к значению счётчика един
  </div>
      <div class="Otvet"> 
      <?php
-      for (var i = 1; i <= 33; i++) {
-          document.write(arr[i] + '<br>');
+      $min=11;
+      $max=33;
+       $s=range($min,$max);
+    
+     for ($i=$min; $i<=$max; $i++){
+         print "<br>";
+         print $min+=$s[$i];
      }
 ?>
      Ответ:<?=$result ?>  
