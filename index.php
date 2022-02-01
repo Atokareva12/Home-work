@@ -237,7 +237,7 @@ echo $season;
 </div>
      <div class="Otvet"> 
      <?php
-   для ($i = 1; $i <= 100; $i++) {
+   для ($i = 1, $i <= 100; $i++) {
 		echo $i . "<br>";
 	}
 ?>
