@@ -258,9 +258,11 @@ i = i + 1; /* Прибавляем к значению счётчика един
  </div>
      <div class="Otvet"> 
      <?php
-     для ($i = 11, $i <= 33, $i++) {
-     echo $i . "<br>";
-}
+  let i = 1;
+  while (i <= 33) {
+       document.write(i + '<br>');
+       i++;
+  }
 ?>
      Ответ:<?=$result ?>  
  </div>
