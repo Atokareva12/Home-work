@@ -258,7 +258,7 @@ i = i + 1; /* Прибавляем к значению счётчика един
  </div>
      <div class="Otvet"> 
      <?php
-      for ($i = 1; i <= 33; i++) {
+      for ($i = 1; i <= 33; i) {
           document.write(i + '<br>');
      }
 ?>
