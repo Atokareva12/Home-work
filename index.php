@@ -288,10 +288,13 @@ i = i + 1; /* Прибавляем к значению счётчика един
      <div class="Otvet"> 
      <?php
 
-      int sum = 0; 
-       for (int i = 1; i <= 100; i++) sum += i; 
-       System.out.println("The sum is " + sum);
+      result = 0
 
+      for i in range(101):
+
+      result += i
+
+      print(result)
    ?>
      Ответ:<?=$result ?>  
  </div>  
