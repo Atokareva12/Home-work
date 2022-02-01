@@ -287,13 +287,11 @@ i = i + 1; /* Прибавляем к значению счётчика един
 </div>
      <div class="Otvet"> 
      <?php
-   let result = 0;
+   var sum = 0;
 
-   for (let i = 1; i <= 100; i++) {
-        result = result + i;
+   for (var i = 1; i <= 100; i++) {
+   sum += i;
    }
-   
-   console.log(result); // искомая сумма
    ?>
      Ответ:<?=$result ?>  
  </div>  
