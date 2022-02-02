@@ -365,9 +365,19 @@ i = i + 1; /* Прибавляем к значению счётчика един
      
 
 
-     <!-- As a link -->
-     <nav class="navbar navbar-light bg-light">
-       <div class="container-fluid">
-         <a class="navbar-brand" href="#">Navbar</a>
-       </div>
-     </nav>
+     <table
+border="1"
+background="images/168.png"
+bgcolor="#7FFFD4"
+cellpadding="10"
+style="width:100%; border-radius:5px;">
+<!--Создаём строку таблицы-->
+<tr>
+<!--Создаём столбец таблицы-->
+<th>
+<!--Содержание ячейки столбца-->
+<h1>Практические работы</h1>
+<!--Закрываем таблицу-->
+</th>
+</tr>
+</table>
