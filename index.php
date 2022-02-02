@@ -276,14 +276,14 @@ i = i + 1; /* Прибавляем к значению счётчика един
  </div>
      <div class="Otvet"> 
      <?php
-      $min=11;
-      $max=33;
-       $s=range($min,$max);
-    
-     for ($i=$min; $i<=$max; $i++){
-         print "<br>";
-         print $min+=$s[$i];
-     }
+      <h3>
+      <?php
+      for ($i = 11; $i <= 33; $i++) {
+          echo $i . "<br>";
+      }
+      ?>
+  </h3>
+
 ?>
      Ответ:<?=$result ?>  </h2>
  </div>
