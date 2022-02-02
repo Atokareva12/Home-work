@@ -8,10 +8,9 @@
 </head>
 <body>
 
-    <h1>Практическая работа 1 </h1>
    <html>
 <body>
-	<font color="red" size="4">Красный шрифт большего размера</font>
+	<font color="red" size="4">Практическая работа 1</font>
 </body>
 </html>
      <dif class="Zadanie">
