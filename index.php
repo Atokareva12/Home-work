@@ -11,6 +11,7 @@
    <html>
 <body>
 	<font color="red" size="4">Практическая работа 1</font>
+    <p><strong>Жирный текст</strong></p>
 </body>
 </html>
      <dif class="Zadanie">
