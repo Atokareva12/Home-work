@@ -29,7 +29,7 @@ src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
  <body>
 <div class="container"> 
 
- <h1>Hello, world!</h1>
+ <h1>ПРИВЕТУЛИ</h1>
 <!-- 1 строка -->
 <div class="row">
  <div class="col-md-1">.col-md-1</div> <!--Одна колонка-->
