@@ -312,17 +312,18 @@ i = i + 1; /* Прибавляем к значению счётчика един
 </div>
      <div class="Otvet"> 
      <?php
-  $min=1;
-  $max=100;
-   $s=range($min,$max);
-
- for ($i=$min; $i<=$max; $i++){
-     print "<br>";
-     print $min+=$s[$i];
- }
-   ?>
-     Ответ:<?=$result ?>  </h2>
- </div>  
+     $sum = 0;
+     $i = 1;
+     
+     do{
+         $sum = $sum + $i;
+         $i++;
+     }
+     while($i <= 100);
+     echo "Сумма всех чисел от одного до 100 равна $sum";
+     ?>
+ </h3>
+</div>
  <hr>
 
 
@@ -429,7 +430,7 @@ i = i + 1; /* Прибавляем к значению счётчика един
         
 
 
-        
+
     </div>
 
     <div class="Otvet">
