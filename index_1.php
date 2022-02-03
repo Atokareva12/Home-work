@@ -24,11 +24,6 @@ text-align:center;
 </style>
 </head>
 <body>
-
-{
-color:#00FF33;  //  это если для всего документа
-}
-
 <div class="container">
 <!-- 1 строка Шапка сайта -
 Двенадцать колонок слиты в одну на всех устройствах-->
@@ -45,6 +40,11 @@ col-xs-12
 <div class="row">
 <div class="col-xs-12 col-sm-3 col-md-3 col-lg-3">Левое меню</div>
 <div class="col-xs-12 col-sm-9 col-md-9 col-lg-9">Контент</div>
+
+<?
+echo "<div class='priv'>туту</div>";
+?>
+
 </div>
 <!-- 3 строка Подвал сайта - на всех устройствах поделен на две части по
 шесть колонок--> 
