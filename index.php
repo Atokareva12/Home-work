@@ -8,7 +8,7 @@
 </head>
 <body>
 
-<h1 <font color="red" align="center"> ПРАКТИЧЕСКАЯ РАБОТА </font> </h1>
+<h1 <font color="red" size="4"> align="center"> ПРАКТИЧЕСКАЯ РАБОТА </font> </h1>
 
 
      <div class="Zadanie">
