@@ -33,6 +33,9 @@
     </div>
     <hr>
 
+
+
+
     <div class="Zadanie">
           <h1>Задание 2</h1>
       Создайте переменные $c=15 и $d=2. Просуммируйте их, а результат
@@ -50,96 +53,109 @@
      </div>
      <hr>
 
+
+
      <div class="Zadanie">
           <h1>Задание 3</h1>
       Создайте переменные $text1='Привет, ' и $text2='Мир!'. С помощью этих
 переменных и операции сложения строк выведите на экран фразу 'Привет,
 Мир!'. 
     </div>
-    <div class="Otvet"> 
-    <?php
-    $text1 = 'Привет, ';
-    $text2 = 'Мир!';
-    echo $text1 . $text2;
- ?>
-     Ответ:<?=$result ?>  </h2>
-     </div>
+
+    <div class="Otvet">
+        <?php
+            $text1='Привет, ';
+            $text2='Мир!';
+        ?>
+        <h3>Ответ: <?=$text1.$text2?></h3>
+    </div>
      <hr>
+
 
      <div class="Zadanie">
           <h1>Задание 4</h1>
  Создайте переменную $name и присвойте ей ваше имя. Выведите на
 экран фразу 'Привет, %Имя%!'. Вместо %Имя% должно стоять ваше имя. 
 </div>
-    <div class="Otvet"> 
+
+<div class="Otvet">
     <?php
-   $name = 'Sasha!';
-   echo 'Привет, ', $name,'!';
-   ?>
-     Ответ:<?=$result ?>  </h2>
-     </div>
-     <hr>
+        $name='Александра'
+    ?>
+    <h3>Привет, <?=$name?>.</h3>       
+</div>
+    <hr>
+
+
+
 
      <div class="Zadanie">
           <h1>Задание 5</h1>
 Создайте переменную $age и присвойте ей ваш возраст. Выведите на
 экран 'Мне %Возраст% лет!'.       
-     </div>
-    <div class="Otvet"> 
+</div>
+
+<div class="Otvet">
     <?php
-     $age = 19;
-     echo 'Мне ', $age,' лет!';
-     ?>
-     Ответ:<?=$result ?>  </h2>
- </div>
+        $age='19'
+    ?>
+    <h3>Мне <?=$age?> лет</h3>
+</div>
  <hr>
+
+
+
 
         <div class="Zadanie">
           <h1>Задание 6</h1>
  Если переменная $a равна 10, то выведите 'Верно', иначе выведите
 'Неверно'. 
 </div>
-    <div class="Otvet"> 
-    <?php
-	$a = 10;
-	if ($a == 10) {
-		echo 'Верно';
-	} else {
-		echo 'Неверно';
-	}
-?>
-     Ответ:<?=$result ?>  </h2>
- </div>
+
+    <div class="Otvet">
+        <h3><?php            
+            $a=11;
+            if($a==10){
+                echo "Верно";     
+            } else {   
+                echo "Не верно";
+            }?>
+        </h3>
+    </div>
  <hr>
+
+
 
       <div class="Zadanie">
           <h1>Задание 7</h1>
  В переменной $min лежит число от 0 до 59. Определите в
 какую четверть часа попадает это число (в первую, вторую, третью или
 четвертую). 
-</div>
-    <div class="Otvet"> 
-    <?php
-      $min = 10;
+ </div>
 
-       if ($min >= 0 and $min <= 14) {
-        echo 'В первую четверть.';
-}
+    <div class="Otvet">
+        <h3>
+            <?php
+                $min=(rand(0, 59)) ;
 
-       if ($min <= 15 and $min >= 30) {
-     echo 'Во вторую четверть.';
-}
+                if($min >=0 and $min <=14){
+                    echo "Первая";     
+                }
 
-       if ($min <= 31 and $min >= 45) {
-     echo 'В третью четверть.';
-}
+                if($min >=15 and $min <=30){
+                    echo "Вторая";     
+                }
 
-       if ($min >= 46 and $min <= 59) {
-     echo 'В четвертую четверть.';
-}
-  ?>
-        Ответ:<?=$result ?>  </h2>
-  </div>
+                if($min >=31 and $min <=45){
+                    echo "Третья";     
+                }
+
+                if($min >=46 and $min <=59){
+                    echo "Четвёртая";     
+                }
+            ?>
+        </h3>
+    </div>
   <hr>
 
 
@@ -149,34 +165,35 @@
 Если она имеет значение '1', то в переменную $result запишем 'зима', если
 имеет значение '2' – 'лето' и так далее. Решите задачу через switch-case.
 </div>
-     <div class="Otvet"> 
-     <?php
- $num = 2;
- switch ($num) {
-      case 1:
-           $result = 'зима';
-           echo $result;
-           break;
-      case 2:
-           $result = 'лето';
-           echo $result;
-           break;
-      case 3:
-           $result = 'осень';
-           echo $result;
-           break;
-      case 4:
-           $result = 'весна';
-           echo $result;
-           break;		
-      default:
-           echo "Введите число от 1 до 4 ";
-           break;
-      }
- 
- ?>
-      Ответ:<?=$result ?>  </h2>
-  </div>
+
+<div class="Otvet">
+    <h3>
+        <?php
+        $num=3;
+        switch($num){
+            case 1;
+                    $result = "Зама";
+                    echo $result;
+                    break;
+            case 2;
+                    $result = "Весна";
+                    echo $result;
+                    break;
+            case 3;
+                    $result = "Лето";
+                    echo $result;
+                    break;
+            case 4;
+                    $result = "Осень";
+                    echo $result;
+                    break; 
+            default:
+                    echo "Введи число от 1 до 4";
+                    break;         
+        }
+        ?>
+    </h3>
+</div>
   <hr>
 
 
@@ -186,15 +203,19 @@
 символом этой строки является цифра 1, 2 или 3. Если это так - выведите 'да',
 в противном случае выведите 'нет'. 
 </div>
-     <div class="Otvet"> 
-     <?php
-$strNum = '12345';
-$res = ($strNum[0] == 1 || $strNum[0] == 2 || $strNum[0] == 3) ? 'Да' : 'Нет';
-echo $res;
-?>
-      Ответ:<?=$result ?>  </h2>
-  </div>
+
+<div class="Otvet">
+    <h3>
+        <?php
+            $strNum = (rand(1,5).rand(1,5));
+
+            $res = ($strNum[0] == 1 || $strNum[0] == 2 || $strNum[0] == 3) ? 'Да' : 'Нет';
+            echo $res;
+        ?>
+    </h3>
+</div>
   <hr>
+
 
 
   <diм class="Zadanie">
@@ -205,19 +226,21 @@ echo $res;
 на 400. Так, годы 1700, 1800 и 1900 не являются високосными, так как они
 делятся на 100 и не делятся на 400. Годы 1600 и 2000 - високосные, так как они
 делятся на 400.
-</div>
-     <div class="Otvet"> 
-     <?php
-    $year = 1700;
+ </div>
 
-    if ($year % 400 == 0) {
-    echo "$year год - Высокосный";
-} else {
-    echo "$year год - Не высокосный";
-}
-?>
-      Ответ:<?=$result ?>  </h2>
-  </div>
+    <div class="Otvet">
+        <h3>
+            <?php
+            $year = 1700;
+
+            if ($year % 400 == 0) {
+                echo "$year год - Высокосный";
+            } else {
+                echo "$year год - Не высокосный";
+            }
+            ?>
+        </h3>
+    </div>   
   <hr>
 
 
