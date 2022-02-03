@@ -25,11 +25,11 @@ text-align:center;
 </head>
 <body>
 <div class="container">
-    
+
     <!-- 1 строка Левая часть шапки и Правая часть шапки ---> 
     <div class="row">
         <div class="col-xs-12 col-sm-7 col-lg-7 q">Левая часть шапки</div>
-    <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 w">Правая часть шапки<</div> 
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 w ">Правая часть шапки<</div> 
     </div>
 
 <!-- 1 строка Шапка сайта -
