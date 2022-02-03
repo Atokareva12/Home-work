@@ -8,11 +8,9 @@
 </head>
 <body>
 
-   <html>
-<body>
-	<font color="red" size="4">Практическая работа 1</font>
-</body>
-</html>
+<h1 align="center"> ПРАКТИЧЕСКАЯ РАБОТА </h1>
+
+
      <div class="Zadanie">
           <h1>Задание 1</h1>
           Создайте переменные $a=17 и $b=10. Отнимите от $a переменную $b и
@@ -346,9 +344,8 @@
 
 
 
-<h1 align="center">
-     ПРАКТИЧЕСКАЯ РАБОТА ЧАСТЬ 2
-    </h1>
+<h1 align="center">ПРАКТИЧЕСКАЯ РАБОТА ЧАСТЬ 2</h1>
+
 
     <div class="Zadanie">
         <h1>
