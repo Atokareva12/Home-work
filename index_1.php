@@ -28,7 +28,7 @@ text-align:center;
 
     <!-- 1 строка Левая часть шапки и Правая часть шапки ---> 
     <div class="row">
-        <div class="col-xs-12 col-sm-11 col-lg-11 q">Левая часть шапки</div>
+        <div class="col-xs-12 col-sm-22 col-lg-22 q">Левая часть шапки</div>
         <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 w ">Правая часть шапки</div> 
     </div>
 
