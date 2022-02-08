@@ -449,7 +449,33 @@
     </div>
  <hr>
 
- 
+
+ <div class="Zadanie">
+        <h1>Задание 4</h1>
+ </div>
+    <div class="Otvet">
+        <h3>
+            <?php
+$a=(rand(1,10));
+echo $a;
+switch($a) {
+    case 1:
+    case 2:
+    case 3:
+    case 4:
+    case 5:
+        echo ' Значение есть';
+        break;
+    default:
+        echo ' Значения нет';
+}
+?>
+</h3>
+</div>
+<hr>
+
+
+
     <div class="Zadanie">
         <h1>
             Задание 5
