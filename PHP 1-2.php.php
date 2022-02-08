@@ -447,15 +447,9 @@
             ?>
         </h3>
     </div>
-<<<<<<< HEAD
  <hr>
 
  
-=======
-    <hr> 
-
->>>>>>> 6a52aa91d35ab8b5afc96fb6073d3b1209d08a28
-    
     <div class="Zadanie">
         <h1>
             Задание 5
