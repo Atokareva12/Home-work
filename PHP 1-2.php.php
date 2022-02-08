@@ -527,11 +527,18 @@ echo '<br>';
 <div class="Otvet">
     <h3>
         <?php
+$days=array( 
+    'ru' => array (1 => "Понедельник" , 2 => 'Вторник' , 3 => 'Среда' , 4 => 'Четверг' , 5 => 'Пятница' 6 => 'Суббота' 7 => 'Воскресенье') ,
+    'en' => array (1 => "Monday", 2 => 'Tuesday', 3 => 'Wednesday' , 4 => 'Thursday' , 5 => 'Friday' , 6 => 'Saturday' , 7 => 'Sunday' ) ) ;
 
     $lang = 'en';
     $day = 4;
-    var_dump($arr[$lang][$day]);    
-
+     
+    if ( $lang == 'ru') { 
+echo $days [ 'ru' ] [$days] ;
+} else {
+    echo $days [ 'en'] [$day];
+}
     ?>
 </h3>
     </div>
@@ -568,7 +575,7 @@ echo "Cтолица $capital - Страна $country"."\n" ;
     <hr> 
 
 
-    
+
 
 
 
