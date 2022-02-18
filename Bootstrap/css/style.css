@@ -1,5 +1,5 @@
 .header{
-    background-color:aquamarine;
+    background-color:rgb(152, 197, 182);
     color:rgb(10, 2, 17);
     text-align: center;
 }
@@ -17,7 +17,7 @@
 }
 
 .photo{
-    background-color:rgb(139, 90, 25);
+    background-color:rgb(216, 66, 208);
     color:rgb(16, 6, 17);
     display: flex;
     align-items: center;
