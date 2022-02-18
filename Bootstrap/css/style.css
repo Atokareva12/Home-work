@@ -1,5 +1,5 @@
 .header{
-    background-color:rgb(152, 197, 182);
+    background-color:rgb(156, 187, 176);
     color:rgb(10, 2, 17);
     text-align: center;
 }
@@ -17,7 +17,7 @@
 }
 
 .photo{
-    background-color:rgb(180, 211, 44);
+    background-color:rgb(156, 182, 42);
     color:rgb(16, 6, 17);
     display: flex;
     align-items: center;
@@ -26,17 +26,17 @@
 }
 
 .content{
-    background-color: rgb(140, 204, 204);
+    background-color: rgb(140, 179, 179);
 }
 
 .tovar{
-    background-color: rgb(199, 117, 117);
+    background-color: rgb(175, 116, 116);
     color: rgb(7, 7, 12);
     text-align: center;
 }
 
 .cell1{
-    background-color: rgb(214, 134, 29);
+    background-color: rgb(151, 96, 23);
     color: rgb(8, 8, 7);
     height: 200px;
 }
