@@ -30,7 +30,25 @@
 }
 
 .tovar{
-    background-color: brown;
+    background-color: rgb(199, 117, 117);
     color: rgb(7, 7, 12);
     text-align: center;
+}
+
+.cell1{
+    background-color: rgb(214, 134, 29);
+    color: rgb(8, 8, 7);
+    height: 200px;
+}
+
+.cell1{
+    background-color: rgb(141, 104, 59);
+    color: rgb(9, 12, 12);
+    text-align: center;
+}
+
+.footer{
+
+
+    
 }
