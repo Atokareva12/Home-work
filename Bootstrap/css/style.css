@@ -16,3 +16,16 @@
     text-align: center;
 }
 
+.photo{
+    background-color:rgb(139, 90, 25);
+    color:rgb(98, 29, 107);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.content{
+    background-color: rgb(140, 204, 204);
+}
+
