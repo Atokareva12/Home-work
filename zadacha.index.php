@@ -8,6 +8,7 @@
     <title>Authorization</title>
 </head>
 <body>
+    
     <form action="" method="post">
         <p>Ваше имя <input type="text" name="name"></p>
         <p><input type="submit"></p>
