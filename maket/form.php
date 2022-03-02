@@ -15,9 +15,13 @@
     Имя: <input type= "text" name="log">
 </form>
 <?php
-if (isset ) 
-
-
-
+if (isset ($_POST) ['Log'] ) ){
+    if (empty($_POST) ['Log'] ){
+    echo "Привет,".$_POST ['Log'];
+}else{
+    echo "Введите имя иначе нет входа";
+     }
+}
+<?
 </body>
 </html>
