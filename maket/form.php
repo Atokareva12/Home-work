@@ -11,8 +11,11 @@
 </head>
 <body>
     <p> Введите имя </p>
-    <form action="form.php" 
-
+    <form action="form.php" method="POST">
+    Имя: <input type= "text" name="log">
+</form>
+<?php
+if (isset ) 
 
 
 
