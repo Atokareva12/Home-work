@@ -33,6 +33,9 @@
             <div class="col-md-1 block">fsdfs</div>
             <div class="col-md-1 block">fsdfs</div>
         </div>
+
+
+    
             <!-- Вторая строка с товарами -->
         <section class="row">
             <div class="col-md-2 col-md-offset-1 block products">Продукт</div>
