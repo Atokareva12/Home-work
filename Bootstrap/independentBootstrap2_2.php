@@ -8,10 +8,12 @@
             <div class="col-md-2 col-md-offset-3">col-md-2</div>
         </div>
     
+
         <div class="row row2">
             Основной 2
             <div class="col-md-2 col-md-offset-10">col-md-2</div>
         </div>
+        
         <div class="row row3">
             <div class="col-md-2 ">col-md-2</div>
             <div class="col-md-2 ">col-md-2</div>
